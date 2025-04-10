@@ -1,0 +1,66 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 2rem;
+    background: #1e1e2f;
+    color: #fff;
+  }
+  
+  h1, h2 {
+    color: #ffd700;
+    margin-bottom: 1rem;
+  }
+  
+  form {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    background: #2a2a40;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(255, 215, 0, 0.1);
+  }
+  
+  input, select {
+    padding: 0.6rem;
+    border-radius: 6px;
+    border: none;
+    font-size: 1rem;
+    flex: 1 1 200px;
+    background: #3b3b5c;
+    color: #fff;
+  }
+  
+  button {
+    background-color: #ffd700;
+    color: #000;
+    padding: 0.6rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #e5c100;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 1rem;
+  }
+  
+  .card {
+    background: #2a2a40;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
