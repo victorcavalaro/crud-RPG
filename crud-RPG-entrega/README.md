@@ -1,4 +1,4 @@
-📘 RPG Manager - Sistema de Gerenciamento de Personagens e Itens Mágicos
+RPG Manager - Sistema de Gerenciamento de Personagens e Itens Mágicos
 
 Bem-vindo ao RPG Manager! 
 
